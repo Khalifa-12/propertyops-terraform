@@ -1,0 +1,8 @@
+PropertyOps live application validation
+=======================================
+
+GET /health
+{"status":"ok","service":"propertyops"}
+
+GET /db-health
+{"status":"ok","service":"propertyops","database":"connected","result":{"connected":1}}

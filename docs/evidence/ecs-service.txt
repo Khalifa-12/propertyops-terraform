@@ -1,0 +1,16 @@
+{
+    "Status": "ACTIVE",
+    "Desired": 1,
+    "Running": 1,
+    "Pending": 0,
+    "TaskDefinition": "arn:aws:ecs:eu-west-2:380560899592:task-definition/propertyops-task:4",
+    "Deployments": [
+        {
+            "Status": "PRIMARY",
+            "RolloutState": "COMPLETED",
+            "Desired": 1,
+            "Running": 1,
+            "Pending": 0
+        }
+    ]
+}

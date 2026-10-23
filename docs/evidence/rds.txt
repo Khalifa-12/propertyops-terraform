@@ -1,0 +1,11 @@
+{
+    "Status": "available",
+    "Engine": "postgres",
+    "Version": "18.3",
+    "Class": "db.t3.micro",
+    "PubliclyAccessible": false,
+    "Encrypted": true,
+    "MultiAZ": false,
+    "Endpoint": "propertyops-db.c7k2siqkkvho.eu-west-2.rds.amazonaws.com",
+    "Port": 5432
+}

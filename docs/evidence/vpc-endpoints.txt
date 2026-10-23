@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------
+|                               DescribeVpcEndpoints                               |
++------------+------------------------------------------+------------+-------------+
+| PrivateDNS |                 Service                  |   State    |    Type     |
++------------+------------------------------------------+------------+-------------+
+|  False     |  com.amazonaws.eu-west-2.s3              |  available |  Gateway    |
+|  True      |  com.amazonaws.eu-west-2.ecr.dkr         |  available |  Interface  |
+|  True      |  com.amazonaws.eu-west-2.logs            |  available |  Interface  |
+|  True      |  com.amazonaws.eu-west-2.ecr.api         |  available |  Interface  |
+|  True      |  com.amazonaws.eu-west-2.secretsmanager  |  available |  Interface  |
++------------+------------------------------------------+------------+-------------+

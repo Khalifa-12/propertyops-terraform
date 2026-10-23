@@ -1,0 +1,30 @@
+alb_dns_name = "propertyops-alb-146271562.eu-west-2.elb.amazonaws.com"
+alb_security_group_id = "sg-004d5e923f9cc3cc8"
+alb_target_group_arn = "arn:aws:elasticloadbalancing:eu-west-2:380560899592:targetgroup/propertyops-tg/f46d43d1e4e734ad"
+cloudfront_distribution_id = "E2G5R4X1KSQBEI"
+cloudfront_domain_name = "d1ni2xqcu4bbef.cloudfront.net"
+db_password_secret_arn = "arn:aws:secretsmanager:eu-west-2:380560899592:secret:propertyops/database/password-ti6mhs"
+ecr_api_endpoint_id = "vpce-07b9eb3d18879d64b"
+ecr_dkr_endpoint_id = "vpce-05e3e02ced836c0cc"
+ecr_repository_name = "propertyops-app"
+ecr_repository_url = "380560899592.dkr.ecr.eu-west-2.amazonaws.com/propertyops-app"
+ecs_cluster_name = "propertyops-cluster"
+ecs_security_group_id = "sg-015a535ee6d205fb6"
+ecs_service_name = "propertyops-service"
+ecs_task_definition_arn = "arn:aws:ecs:eu-west-2:380560899592:task-definition/propertyops-task:4"
+logs_endpoint_id = "vpce-0429227354d7d6444"
+private_subnet_ids = [
+  "subnet-0c1399180a3688c5c",
+  "subnet-00ad70445285c2c33",
+]
+public_subnet_ids = [
+  "subnet-011073e2df105f2eb",
+  "subnet-05a72dbddce72765d",
+]
+rds_endpoint = "propertyops-db.c7k2siqkkvho.eu-west-2.rds.amazonaws.com"
+rds_port = 5432
+rds_security_group_id = "sg-0271a3a05fdfd51a6"
+s3_endpoint_id = "vpce-0c0e0f9fd7ff1d922"
+secretsmanager_endpoint_id = "vpce-0a26084cfc201865b"
+vpc_id = "vpc-0e36abd56fdeee9db"
+vpce_security_group_id = "sg-0a436d01ea1273b0d"
