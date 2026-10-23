@@ -1,5 +1,5 @@
 # PropertyOps — AWS Infrastructure with Terraform
-
+[![Terraform CI](https://github.com/Khalifa-12/propertyops-terraform/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/Khalifa-12/propertyops-terraform/actions/workflows/terraform-ci.yml)
 PropertyOps is a cloud infrastructure portfolio project that provisions a secure, container-based application platform on AWS using **Terraform**.
 
 The project is the Infrastructure-as-Code evolution of my original PropertyOps ClickOps deployment. I first built the architecture manually in the AWS Console to understand how each service connected, then rebuilt the environment from scratch using reusable Terraform modules.
